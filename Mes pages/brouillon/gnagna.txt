@@ -1,0 +1,23 @@
+	
+
+		<form action="" class="produit">
+			<div class="image_produit">
+				<img src="../Image/t-shirt.png">
+			</div>
+			<div class="content">
+				<h4 class="nom">t-shirt</h4>
+				<h2 class="prix">15.99€</h2>
+				<a href="#" class="panier2">Ajouter au panier</a>
+			</div>
+		</form>
+		<form action="" class="produit">
+			<div class="">
+				<img src="../Image/chaussures.jpg">
+			</div>
+			<div class="content">
+				<h4 class="nom">chaussures</h4>
+				<h2 class="prix">39.99€</h2>
+				<a href="#" class="panier2">Ajouter au panier</a>
+			</div>
+		</form>
+<span><?= array_sum($_SESSION['panier'])?></span>
